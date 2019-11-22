@@ -18,7 +18,7 @@ const StorageCtrl = (function(){
         // Push new item
         items.push(item);
 
-        // Re set ls
+       
         localStorage.setItem('items', JSON.stringify(items));
       }
     },
